@@ -1,6 +1,3 @@
-// === DO NOT EDIT THIS REGION ===
-// Read the comments to understand how the program is structured.
-
 // Prompt the user for a list of integers separated by commas.
 const userInputString = prompt(
   "Please enter some integers separated by commas.",
@@ -29,7 +26,6 @@ console.log(`The range of your numbers is ${getRange(numbers)}.`);
 console.log(`The even numbers you gave are ${getEvens(numbers)}.`);
 console.log(`The odd numbers you gave are ${getOdds(numbers)}.`);
 
-// === EDIT THE CODE BELOW ===
 // Complete the functions below to make the program work!
 
 /**
